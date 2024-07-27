@@ -1,0 +1,47 @@
+[debug] [2024-07-26T19:00:23.710Z] ----------------------------------------------------------------------
+[debug] [2024-07-26T19:00:23.715Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Magdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-07-26T19:00:23.715Z] CLI Version:   13.14.1
+[debug] [2024-07-26T19:00:23.715Z] Platform:      win32
+[debug] [2024-07-26T19:00:23.716Z] Node Version:  v22.1.0
+[debug] [2024-07-26T19:00:23.716Z] Time:          Fri Jul 26 2024 22:00:23 GMT+0300 (Eastern European Summer Time)
+[debug] [2024-07-26T19:00:23.717Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-26T19:00:23.729Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-26T19:00:23.730Z] > authorizing via signed-in user (magdyshata35@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\my-appfire
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-07-26T19:00:41.464Z] > refreshing access token with scopes: []
+[debug] [2024-07-26T19:00:41.467Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-07-26T19:00:41.467Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-07-26T19:00:41.774Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-07-26T19:00:41.774Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-07-26T19:00:41.785Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-07-26T19:00:42.334Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-07-26T19:00:42.334Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project fir-debloy (firebasedebloy) 
+[info] 
+=== Hosting Setup
+[debug] [2024-07-26T19:01:09.526Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-debloy [none]
+[debug] [2024-07-26T19:01:09.907Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-debloy 200
+[debug] [2024-07-26T19:01:09.907Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-debloy {"projectId":"fir-debloy","projectNumber":"976749574660","displayName":"firebasedebloy","name":"projects/fir-debloy","resources":{"hostingSite":"fir-debloy"},"state":"ACTIVE","etag":"1_82c70d3e-22ea-4edd-b103-f7bdfc796ac2"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
